@@ -6,7 +6,6 @@ numeros = int(0)
 for vezes in range (dimensao):
     numeros = int(input("quais numeros voce quer somar? "))
     lista.append(numeros)
-    print(vezes)
 #somar lista
 for i in range (len(lista)):
     soma = lista[i] + soma
